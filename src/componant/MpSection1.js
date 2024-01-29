@@ -87,7 +87,7 @@ const MpSection1 = () => {
                 {
                     listArr.map((ele) => {
                         return (
-                            <Grid item  xs={3.1} sx={{ height: '260px', backgroundImage: `url(${ele.image})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundColor: 'rgba(230,230,230)', backgroundBlendMode: 'multiply', borderRadius: '7px', display:'flex',justifyContent:'space-between', alignItems:'flex-end', m:'10px', boxShadow:'1px 1px 2px 0px rgba(252,249,251,1)', p:'5px',transition: 'transform .5s ease' ,'&:hover':{ transform: 'scale(1.03)'}}} data-aos="fade-up">
+                            <Grid item  xs={3.1} sx={{ height: '260px', backgroundImage: `url(${ele.image})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundColor: 'rgba(230,230,230)', backgroundBlendMode: 'multiply', borderRadius: '7px', display:'flex',justifyContent:'space-between', alignItems:'flex-end', m:'10px', boxShadow:'1px 1px 2px 0px rgba(252,249,251,1)', p:'5px'}} data-aos="fade-up">
                                 <Typography sx={{fontSize:'22px', color:'#e0e0e0', fontWeight:'bold'}}>{ele.name}</Typography>
                                 <Typography sx={{fontSize:'20px', color:'white'}}>{ele.type}</Typography>
 
