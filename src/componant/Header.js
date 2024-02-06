@@ -28,14 +28,14 @@ const Header = () => {
                     </Grid>
                 </Grid>
                 <Grid container sx={{ justifyContent: 'space-between', alignItems: 'center', bgcolor: 'transparent', zIndex: 9999, }}>
-                    <Grid item xs={3} >
-                        <Box sx={{ width: { lg: '130px', md: '130px', sm: '100px', xs: '82px' }, height: '60px', ml: '30px', }}>
+                    <Grid item xs={3} sx={{ display:'flex', justifyContent:'left'}}>
+                        <Box sx={{ width: { lg: '115px', md: '120px', sm: '100px', xs: '82px' }, height: '60px', }}>
 
                             <img src={mainlogo} style={{ width: '100%', height: '100%' }} />
                         </Box>
                     </Grid>
 
-                    <Grid item xs={3.3} sx={{ display: { lg: 'flex', mf: 'flex', sm: 'none', xs: 'none' }, justifyContent: 'space-between', alignItems: 'flex-end' }}>
+                    <Grid item xs={3.3} sx={{ display: { lg: 'flex', mf: 'flex', sm: 'none', xs: 'none' }, justifyContent: 'space-between', alignItems: 'flex-start' }}>
                         <Typography sx={{ fontSize: '15px', color: '#212121', fontWeight: 'bold', color: 'white' }}>Vehicles</Typography>
                         <Typography sx={{ fontSize: '15px', color: '#212121', fontWeight: 'bold', color: 'white' }}>Energy</Typography>
                         <Typography sx={{ fontSize: '15px', color: '#212121', fontWeight: 'bold', color: 'white' }}>Charging</Typography>
@@ -50,7 +50,7 @@ const Header = () => {
 
                     </Grid>
                     <Grid item xs={3} sx={{display:{lg: 'none', md:'none', sm:'flex', xs:'flex'}, justifyContent: 'right', alignItems: 'center', p: '0px 15px' }}>
-                        <Button sx={{ bgcolor: '#e0e0e0', color: 'white', textTransform: 'capitalize', background: 'rgba(0,0,0,0.5)' }}>Menu</Button>
+                        <Button sx={{ bgcolor: '#e0e0e0', color: 'white', textTransform: 'capitalize', background: 'rgba(0,0,0,0.5)',fontSize:{lg:'14px', md:'13px', sm:'12px',xs:'11px'} }}>Menu</Button>
                     </Grid>
 
                 </Grid>

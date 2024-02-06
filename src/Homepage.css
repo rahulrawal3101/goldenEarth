@@ -17,3 +17,12 @@
   .img-hover-zoom:hover{
     transform: scale(1.08);
   }
+
+  .content {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .content.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
