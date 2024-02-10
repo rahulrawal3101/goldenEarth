@@ -1,13 +1,11 @@
 'use client'
 import { Box, Button, Grid, Typography } from '@mui/material';
-// import Image from 'next/image';
 import React from 'react';
-// import teslalogo from '../assets/teslalogo.png';
-import teslwhitelogo from '../assets/teslawhitelogo.png';
 import mainlogo from '../assets/mainlogo.png';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import adellogo from '../assets/adellogo.png';
 
 const Header = () => {
     return (
@@ -29,9 +27,9 @@ const Header = () => {
                 </Grid>
                 <Grid container sx={{ justifyContent: 'space-between', alignItems: 'center', bgcolor: 'transparent', zIndex: 9999, }}>
                     <Grid item xs={3} sx={{ display:'flex', justifyContent:'left'}}>
-                        <Box sx={{ width: { lg: '115px', md: '120px', sm: '100px', xs: '82px' }, height: '60px', }}>
+                        <Box sx={{ width: { lg: '160px', md: '120px', sm: '100px', xs: '82px' }, height: '50px', bgcolor:'white',borderRadius:'10px'}}>
 
-                            <img src={mainlogo} style={{ width: '100%', height: '100%' }} />
+                            <img src={adellogo} style={{ width: '100%', height: '100%' }} />
                         </Box>
                     </Grid>
 
